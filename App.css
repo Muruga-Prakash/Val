@@ -49,11 +49,11 @@
   border-radius: 50%;
 }
 
-.video-container {
+.image-container {
   margin-top: 20px;
 }
 
-video {
+.surprise-image {
   width: 90%;
   max-width: 400px;
   border-radius: 10px;
