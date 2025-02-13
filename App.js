@@ -28,14 +28,11 @@ const App = () => {
       </motion.div>
       {isOpened && (
         <motion.div
-          className="video-container"
+          className="image-container"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
         >
-          <video controls autoPlay>
-            <source src="your_video.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          <img src="your_surprise_image.jpg" alt="Surprise Pic" className="surprise-image" />
         </motion.div>
       )}
     </div>
